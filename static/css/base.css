@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Raleway&display=swap');
+
+html {
+    height: 100%;
+}
+
+body {
+    background: url('/media/purple-grapes.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    color: #555;
+    font-family: 'Dancing Script', cursive;
+}
+
+
