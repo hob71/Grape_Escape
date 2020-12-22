@@ -19,7 +19,8 @@ The project ‘**Grape Escape**’ is an e-commerce website for selling wines, g
 
 
 ## Images:
-
+Title page - Photo by "https://unsplash.com/@kymellis?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Kym Ellis"https://unsplash.com/s/photos/winery?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash NOT USED
+Image by <a href="https://pixabay.com/users/jillwellington-334088/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=553462">Jill Wellington</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=553462">Pixabay</a>
 
 ## Fonts:
 
