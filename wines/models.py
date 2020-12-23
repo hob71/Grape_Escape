@@ -4,6 +4,8 @@ from django.db import models
 
 
 class Groups(models.Model):
+    class Meta:
+        verbose_name_plural = 'Groups'
     name = models.CharField(max_length=24)
 
     def __str__(self):
@@ -11,6 +13,8 @@ class Groups(models.Model):
 
 
 class Prod(models.Model):
+    class Meta:
+        verbose_name_plural = 'Prod'
     group = models.ForeignKey('Groups', null=True, on_delete=models.SET_NULL)
     sku = models.CharField(max_length= 100, null=True, blank=True)
     name = models.CharField(max_length=150, null=False, blank=False)
