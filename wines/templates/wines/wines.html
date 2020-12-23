@@ -1,8 +1,25 @@
 {% extends "base.html" %}
 {% load static %}
 
-{% block page_content%}
+{% block page_content %}
 
-<p>Wine page</p>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1>Wines and all</h1>
+            {% for wine in wines %}
+            <div class="card" style="width: 18rem;">
+                <img src="{{ wine.image }}" class="card-img-top" alt="{{ wine.name }}">
+                <div class="card-body">
+                    <h5 class="card-title">{{ wine.name }}</h5>
+                    <p class="card-text">{{ wine.description }}</p>
+                    <p class="card-text">{{ wine.price }}</p>
+                    <a href="#" class="btn btn-primary">Buy</a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
 
 {% endblock %}
